@@ -7,5 +7,5 @@ urlpatterns = [
     # usuarios.com
     path('', views.home, name='home'),
     #usuarios.com/user
-    path('usuarios/', views.usuarios, name='listagem_usuarios')
+    path('usuarios/', views.usuarios, name='listagem_usuario')
 ]
